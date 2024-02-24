@@ -1,0 +1,77 @@
+.gridOne {
+  display:grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.gridTwo {
+  display:grid;
+  grid-template-columns: 1fr 1fr 2fr ;
+  
+}
+
+.gridTwo > .primero {
+  background-color: red;
+
+}
+
+.gridTwo > .segundo {
+  background-color: blue;
+}
+
+.gridTwo > .tercero {
+  background-color: yellow;
+}
+
+.gridThree {
+  display:grid;
+  grid-template-rows: 1fr 3fr;
+  width: 500px;
+  height: 300px;
+}
+
+.uno {
+  background-color: rgb(226, 225, 225);
+}
+
+.dos {
+  background-color: rgb(191, 190, 190);
+}
+
+.dos img {
+  object-fit: cover;
+}
+
+.gridFour {
+  display:grid;
+  grid-template-rows: 1fr 1fr;
+  width: 500px;
+  background-color: green;
+}
+
+#segundo-texto {
+  display:grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.gridFive {
+  display: grid;
+  grid-template-rows: 2fr 1fr;
+}
+
+#five-imagenes img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+}
+
+.gridSix {
+  display:grid;
+  grid-template-columns: 1fr 3fr;
+  width: 500px;
+  background-color: gray;
+}
+
+.gridSix p {
+  font-family: "Protest Strike", sans-serif;
+  font-weight: 350;
+}
